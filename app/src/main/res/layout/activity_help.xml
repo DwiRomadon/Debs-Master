@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_marginTop="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tata cara penggunaan aplikasi"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menu Batang Tarik"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Untuk perancangan Batang Tarik yang harus dilakukan adalah :"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1)	Pilih profil yang akan digunakan pada kolom ‘’Profil’’"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2)	Pilih mutu baja yang akan digunakan pada kolom ‘’Baja’’"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3)	Input nilai DL, LL, La, H, W, E pada masing-masing kolom
+        (nilai DL, LL, La, H, W, E adalah nilai pembebanan  yang  dibutuhkan dalam perencanaan Batang  Tarik)"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4)	Klik tombol Hitung"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5)	Tombol Luas Nettodan Blok Geser dapat di klik bila kolom profil, kolom baja, dan kolom nilai pembebanan telah diinput"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menu Batang Tekan"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Langkah pertama adalah memilih data profil baja yang akan digunakan, tersedia berbagai pilihan
+data profil baja dalam aplikasi, pengguna hanya perlu memilih data profil mana yang akan di
+gunakan."       android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Selanjutnya adalah memilih mutu baja , tersedia 5 mutu baja dalam aplikasi, sama halnya dengan
+data profil baja pemilihan mutu baja juga hanya memilih saja mutu baja mana yang akan digunakan."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"
+                android:id="@+id/textView6" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Langkah ketiga adalah memilih tumpuan baja pada batang tekan, pilihlah sesuai dengan perencanaan
+perhitungan pengguna."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Selanjutnya adalah megisi kolom bentang baja, bentang baja di isi secara manual dan satuan yang
+digunakan adalah milimeter (mm)."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Langkah kelima adalah mengisi secara manual beban beban yang bekerja pada batang tekan, ada
+lima kolom pembebanan yang ada di aplikasi yaitu beban hidup, beban mati, beban angin, beban air
+hujan, dan beban gempa. Harus di isi semua , apabila ada beberapa beban yang di anggap kosong
+maka tetap harus di isi dengan angka nol (0) , agar proses perhitungan bisa dilakukan.
+6. Setelah seluruh data telah di isi maka langkah terakhir adalah memencet tombol hitung, kemudian"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menu Balok Lentur"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.	Balok Lentur"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Pilih jenis profil yang akan digunakan"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Pilih mutu baja yang akan digunakan"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Input Jarak sokongan lateral yang akan direncakan"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Lalu klik button cek kekompakan penampang"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Input pembebanan yang akan di rencanakan"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Lalu klik button Hitung, akan tampil sebuah hasil perhitungan kuat nominal balok lentur"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.	Balok Geser"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Pilih jenis profil yang akan digunakan"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Pilih mutu baja yang akan digunakan"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Input gaya geser maksimum yang ingin direncanakan"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Lalu klik button Hitung, akan tampil sebuah hasil perhitungan kuat nominal balok Geser."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menu Sambungan Baut"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.	Sambungan Tipe Tumpu"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Pilih jenis profil yang akan disambung"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Pilih mutu baja yang akan digunakan"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Pilih mutu baut yang akan digunakan"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Input jumlah bidang geser untuk sambungan yang direncanakan"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Kondisi baut pada bidang geser yang akan digunakan "
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Pilih diameter baut yang akan digunakan"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Input jumlah baut keseluruhan untuk sambungan yang direncanakan"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Input jumlah baut dalam satu garis vertikal untuk sambungan yang direncanakan"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Input Nu (beban total) pada perencanaan beban"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Lalu klik button HITUNG, maka akan tampil sebuah hasil perhitungan Sambungan Tipe Tumpu."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.	Sambungan Tipe Friksi"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Input jumlah bidang geser untuk sambungan yang direncanakan"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Pilih diameter baut yang akan digunakan"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Input jumlah baut keseluruhan untuk sambungan yang direncanakan"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Lalu klik button HITUNG, maka akan tampil sebuah hasil perhitungan Sambungan Tipe Friksi."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.	Tahanan Tarik Baut"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Pilih mutu baut yang akan digunakan"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Input jumlah baut keseluruhan untuk sambungan yang direncanakan"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Pilih diameter baut yang akan digunakan"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Input Nu (beban total) pada perencanaan beban"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Lalu klik button HITUNG, maka akan tampil sebuah hasil perhitungan tahanan tarik baut sambungan baut."
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

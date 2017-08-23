@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apa Itu Batang Tekan Pada Struktur Baja?"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Batang Tekan pada struktur baja biasanya dijumpai pada kolom dan batang-batang tekan pada struktur rangka batang."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pembebanan pada Batang Tekan"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pembebanan yang dilakukan di dalam batang tekan struktur baja dalam aplikasi ini berdasarkan pada syarat pembebanan yang terdapat di dalam buku SNI 03-1729- 2002 , yaitu buku pedoman perhitungan dalam strujtur baja yang digunakan di Indonesia. Perhitungan pembebanan dalam batang tekan dikenal dengan Nu (Beban Ultimate). Beban ultimate yang digunakan dalam perhitungan adalah beban ultimate (Nu) terbesar dari 5 percobaan perhitungan."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cek Rumus untuk menghitung Nu :"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qu 1.1 = 1,4D"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qu 1.2 = 1,2D + 1,6L + 0,5 (La)"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qu 1.3 = 1,2D + 1,6L + 0,5 (H)"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:id="@+id/textView11" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qu 1.4 = 1,2D + 1,6(La) + (yLL)"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:id="@+id/textView12" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qu 1.5 = 1,2D + 1,6(La) + (0,8W)"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qu 1.6 = 1,2D + 1,6(H) + (yLL)"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qu 1.7 = 1,2D + 1,6(H) + (0,8W)"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qu 1.8 = 1,2D + 1,3W + yLL + 0,5 (La)"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qu 1.9 = 1,2D + 1,3W + yLL + 0,5 (H)"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qu 1.10 = 1,2D + 1,0E + yLL"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qu 1.11 = 1,2D - 1,0E + yLL"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qu 1.12 = 0,9D + (1,3W)"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qu 1.13 = 0,9D + (1,0E)"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qu 1.14 = 0,9D - (1,3W)"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qu 1.15 = 0,9D - (1,0E)"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:id="@+id/textView4"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dimana :"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="yL = 1"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="D adalah  Beban Mati"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="L  adalah Beban Hidup "
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="H adalah Beban Air Hujan"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="W adalah Beban Angin"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E adalah Beban Gempa"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dicari Nu terbesar dikarenakan dalam prinsip perencanaan, beban harus dibesarkan dan kekuatan harus dikecilkan, ini bertujuan untuk mengantisipasi terjadinya pembebanan maksimal pada bangunan yang "
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mutu Baja"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ada 5 mutu baja yang digunakan dalam perhitungan di aplikasi ini, yaitu :"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. BJ 34 dengan nilai Fu = 340 Mpa dan Fy = 210 Mpa"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. BJ 37 dengan nilai Fu = 370 Mpa dan Fy = 240 Mpa"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. BJ 41 dengan nilai Fu = 410 Mpa dan Fy = 250 Mpa"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. BJ 50 dengan nilai Fu = 500 Mpa dan Fy = 290 Mpa"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. BJ 55 dengan nilai Fu = 550 Mpa dan Fy = 420 Mpa"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tumpuan pada Batang Tekan"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menurut buku SNI 03-1729-2002 ada 6 jenis tumpuan yang digunakan di batang tekan struktur baja , yaitu : "
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Jepit – Jepit , nilai kc nya adalah 0,65"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Sendi – Jepit , nilai kc nya adalah 0,8 "
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Rol – Jepit , nilai kc nya adalah 1,2 "
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Sendi – Sendi , nilai kc nya adalah 1,0 "
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. Bebas – Jepit , nilai kc nya adalah 2,1  "
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6. Rol – Sendi , nilai kc nya adalah 2,0 "
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kuat Tekan Rencana Batang Tekan"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:text="Kuat tekan rencana sebuah batang tekan untuk struktur baja (ØNn) adalah suatu kuat tekan nominal yang sebelumnya sudah direduksi dengan faktor reduksi kekuatan yaitu Ø = 0,85. Maksud dari reduksi sendiri adalah sesuai dengan prinsip perencanaan yaitu beban ditambah dan kekuatan dikecilkan.
+Ada beberapa tahapan untuk menghitung kuat tekan rencana (ØNn), yaitu :"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:text="1. Menghitung nilai Lk => Lk = kc x L"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:text="Dimana kc didapat dari jenis perletakan / tumpuan dan L adalah bentang baja. "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:text="2. Menghitung nilai λc"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lamda_c"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:text="Dimana nilai fy didapat dari mutu baja yang dipakai , nilai π = 3,14 , nilai E adalah 200.000 dan nilai r didapat dari tabel baja sesuai profil yang dipakai. Setelah didapat nilai λ_ckemudian ditentukan masuk kedalam kolom apakah batang tekan yang digunakan dengan cara : "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:text="3. Menghitung nilai ω"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:text="Ada tiga cara mencari nilai ω yaitu berdasarkan jenis panjang kolom. "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:text="1. Kolom Pendek ω = 1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:text="2. Kolom Menengah "/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/algoritma_w"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:text="3. Kolom Panjang ω = 1.25 λc.λc"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:text="4. Menghitung nilai ØNn"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kekuatan Profil "
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:text="Setelah mencari nilai Nu dan ØNn, langkah selanjutnya untuk mengetahui kekuatan profil yang digunakan adalah dengan cara membandingkan nilai Nu dan ØNn , apabila nilai Nu lebih besar dari ØNn maka dikatakan bahwa profil yang dipilih tidak kuat menahan beban ultimate yang bekerja , namun apabila sebaliknya yaitu nilai Nu lebih kecil dari ØNn maka profil kuat menahan beban ultimate yang bekerja."/>
+</LinearLayout>

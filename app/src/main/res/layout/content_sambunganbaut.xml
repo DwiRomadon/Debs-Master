@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Profil Baja"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan jenis elemen struktur baja yang akan disambung."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Mutu Baja "
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan sebuah mutu baja yang digunakan dalam sistem penyambungan dalam satuan Mpa."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Mutu Baut (Fub)"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan mutu baut yang digunakan untuk menyambung elemen struktur baja dalam satuan Mpa."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Kondisi Baut Pada Bidang Geser(R)"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView13" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan jenis baut yang digunakan untuk menyambung elemen struktur baja (Ulir dan Non Ulir)."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Diameter Baut (db1)"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan diameter baut yang digunakan untuk menyambung elemen struktur baja dalam satuan mm."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Diameter Lubang Baut (db2)"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan besarnya diameter untuk lubang baut penyambung yang didapat dengan cara db1 + 2 dalam satuan mm."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Jumlah Bidang Geser (m)"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan jumlah bidang yang mengalami pergeseran/pergerakan pada saat adanya gaya tarik yang bekerja dalam satuan buah."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Jumlah Baut Kesuluruhan (n1)"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan jumlah baut secara keseluruhan yang digunakan pada sebuah penyambungan elemen struktur baja dalam satuan buah."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Jumlah Baut dalam Satu Garis (n2)"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan jumlah baut dalam satu garis vertical dalam satuan buah."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Beban Total (Nu)"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan sebuah beban total (ultimate) yang telah kita rencanakan dalam satuan kN."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Koefesien Gesek Permukaan (µ)"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan koefesien gesek sebuah permukaan plat yang disambung sesuai peraturan SNI-03-1729-2002."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Luas Penampang Bruto (Ab)"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan luas kotor sebuah penampang baut penyambung dengan rumus πr2 dalam satuan mm2"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Luas Penampang Profil (Ag)"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan luas penampang profil yang didapat dari tabel struktur baja dalam satuan mm2."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Tebal Pelat Baja (tp)"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan tebal sebuah profil struktur baja yang disambung yang didapat dari tabel struktur baja dalam satuan mm."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Mutu Baja Fraktur (Fup)"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan kekuatan baja dalam kondisi fraktur dalam satuan Mpa."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Mutu Baja Leleh (Fy)"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan kekuatan baja dalam kondisi leleh dalam satuan Mpa."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Faktor Reduksi (U)"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan faktor pengali yang digunakan untuk mereduksi pada perhitungan Leleh (0.9) dan Fraktur (0.75) serta kekuatan total sambungan (0.75)."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Rn1"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dengan rumus = [m x R x Fub x Ab]"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Rn2"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dengan rumus = 2.4 x db1 x tp x Fup"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Kekuatan Persatu Baut (ØRn1)"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan kekuatan sebuah sambungan persatu baut yang mana hasil tersebut didapat setelah Rn1 dikalikan  dengan faktor reduksi sebesar (0.75) dalam satuan kN. "
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Kekuatan Persobekan (ØRn2)"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan kekuatan sebuah sambungan persobekan yang mana hasil tersebut didapat setelah Rn2 dikalikan  dengan faktor reduksi sebesar (0.75) dalam satuan kN."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Kekuatan Total Sambungan Baut (Rnt)"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan kekuatan total sebuah sambungan baut yang mana hasil tersebut didapat setelah mengalikan Rn1  dengan jumlah baut keseluruhan (n1) dalam satuan kN."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Kondisi Leleh"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dengan rumus = 0.9 x Fy x Ag"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Kondisi Fraktur"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dengan rumus = 0.75 x Ae x Fup"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Kekuatan Batang Tarik yang disambung (ØNn )"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan kekuatan sebuah batang tarik yang disambung, didapat dari hasil terkecil perhitungan kondisi leleh dan fraktur dalam satuan kN."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Gaya Tarik (Tb)"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan sebuah gaya tarik yang didapat dari tabel baut menurut besarnya diameter baut yang digunakan untuk menyambung dalam satuan kN."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+</LinearLayout>

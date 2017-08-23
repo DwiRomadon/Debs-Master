@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.debs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="server.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Debs"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BalokLentur" />
+        <activity android:name=".LenturBalok" />
+        <activity android:name=".BalokGeser" />
+        <activity android:name=".BatangTekan" />
+        <activity android:name=".SambunganBautMenu" />
+        <activity android:name=".SambunganBautTipeTumpu" />
+        <activity android:name=".TipeFriksi" />
+        <activity android:name=".KuatRencanaTarik" />
+        <activity android:name=".MenuSambunganBaut" />
+        <activity android:name=".BatangTarik" />
+        <activity android:name=".BlokGeser" />
+        <activity android:name=".ErrorHandler" />
+        <activity
+            android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity"
+            android:process=":error_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LuasNeto"
+            android:label="Luas Neto" />
+        <activity android:name=".InfoProfile" />
+        <activity android:name=".InfoUmum" />
+        <activity
+            android:name=".InfoBalokLentur"
+            android:label="@string/title_activity_info_balok_lentur"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InfoBatangTekan"
+            android:label="@string/title_activity_info_batang_tekan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InfoSambunganBaut"
+            android:label="@string/title_activity_info_sambungan_baut"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InfoBatangTarik"
+            android:label="@string/title_activity_info_batang_tarik"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Help"></activity>
+        <activity android:name=".About"></activity>
+    </application>
+
+</manifest>

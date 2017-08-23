@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DEPS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="textTipeTumpu">
+        Jika sambungan baut lebih lemah dari batang yang disambung maka diberikan
+        alternatif dengan menaikkan mutu baut atau dengan menambahkan jumlah baut yang akan dipasang.
+    </string>
+
+    <string-array name="mutuBaut">
+        <item>825</item>
+        <item>1035</item>
+    </string-array>
+    <string name="title_activity_info_balok_lentur">InfoBalokLentur</string>
+    <string name="title_activity_info_batang_tekan">InfoBatangTekan</string>
+    <string name="title_activity_info_sambungan_baut">InfoSambunganBaut</string>
+    <string name="title_activity_info_batang_tarik">InfoBatangTarik</string>
+</resources>

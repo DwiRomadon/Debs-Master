@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Profil Baja"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakanjeniselementstrukturbaja yang akan disambung"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Mutu Baja "
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merupakan sebuah mutu baja yang digunakan dalam sistem penyambungan dalam satuan Mpa."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	KombinasiPembebanan"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dl =  beban mati yang diakibatkan oleh berat konstruksi permanen, termasuk dinding, lantai, atap, plafon, partisi tetap, tangga, dan peralatan layan tetap."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ll = beban hidup yang ditimbulkan oleh penggunaan gedung, termasuk kejut, tetapi tidak termasuk beban lingkungan seperti angin, hujan, dan lain-lain."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="La    = beban hidup di atap yang ditimbulkan selama perawatan oleh pekerja, peralatan, dan material,atau selama penggunaan biasa oleh orang danbenda bergerak."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="H     = beban hujan, tidak termasuk yang diakibatkan genangan air. "
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="W    = beban angin."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E	 = beban gempa, yang ditentukan menurut SNI 03-1726-2002."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	ØNn"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView10" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kuat tarik rencana diambil dari nilai fraktur atau nilai leleh minimum"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Nu"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pembebanan ultimate"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Luas Netto"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lubang yang dibuat pada sambungan untuk menempatkan alat pengencang seperti baut atau paku keling, mengurangi luas penampang sehingga mengurangi pula tahanan penampang tersebut"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Ag"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas kotor penampang didapat dari table baja"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Diameter Lubang"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ukuran lubang yang akan dipasang baut, ukuran ditambah 2 untuk factor keamanan"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	n ( JumlahBaut)"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah lubang yang mengalami kegagalan (leleh/fraktur)"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	An"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas netto penampang"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Ae"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas penampang efektif"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	U"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jarak antar baut secara vertical"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	S"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jarak antar baut secara horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Blok Geser"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pada sebuah elemen pelat tipis yang menerima beban tarik, dan yang disambungkan dengan alat pengencang, tahanan dari komponen tarik tersebut kadang ditentukan oleh kondisi batas sobek"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Tahanan Nominal Tarik"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agv	= luas kotor akibat geser"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agt	= luas kotor akibat tarik"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anv	= luas netto akibat geser"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ant 	= luas netto akibat tarik"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fu	= kuat tarik"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fy	= kuat leleh"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	ØNn Blok Geser"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keruntuhan blok geser"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"/>
+</LinearLayout>
